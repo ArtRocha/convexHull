@@ -124,8 +124,8 @@ predict_matrix2 = [
 
 
 
-def main(matriz):
-    position = taking_cords(matriz)
+def main(matrix):
+    position = taking_cords(matrix)
     #pegando a posição das bordas na imagem
     border = ConvexHull(position)
     final_matrix = drawn_lines_and_paint_inside(border)
